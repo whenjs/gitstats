@@ -830,6 +830,7 @@ class HTMLReportCreator(ReportCreator):
 				f.write('<td>0</td>')
 				fp.write('%d 0\n' % i)
 		fp.close()
+		// this is a comment
 		f.write('</tr>\n<tr><th>%</th>')
 		totalcommits = data.getTotalCommits()
 		for i in range(0, 24):
